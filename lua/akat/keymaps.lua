@@ -37,7 +37,3 @@ keymap("v", ">", ">gv", opts)
 -- Telescope --
 keymap("n", "<c-t>", "<cmd>Telescope find_files<cr>", opts)
 keymap("n", "<leader>f", "<cmd>Telescope live_grep<cr>", opts)
-
--- Comment
-keymap("n", "<leader>/", "<cmd>lua require('Comment').toggle()<CR>", opts)
-keymap("v", "<leader>/", ":lua require(\"Comment.api\").gc(vim.fn.visualmode())<cr>", opts)
