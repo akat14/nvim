@@ -1,8 +1,10 @@
 local servers = {
+	"clangd",
+	--"typescript-language-server",
 	"sumneko_lua",
 	-- "cssls",
 	-- "html",
-	-- "tsserver",
+	"tsserver",
 	"pyright",
 	-- "bashls",
 	"jsonls",
